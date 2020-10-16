@@ -32,8 +32,167 @@
             <button type="button" class="galleryBtn"><a href="#gallerySection">gallery</a></button>
         </div>
     </section>
+    <section>
+        <div class="content">
+            <video class="video-container" src="video/Diana%20Stroie.mp4" preload="auto" autoplay="true" loop="loop"
+                muted="muted">
+
+            </video>
+            <p class="dianaT">Diana Stroie</p>
+            <p class="dianaLocal">Transylvanian artist based in Versailles, France</p>
+            <p class="dianaSub">Fullfilling the empty spaces in your home with paintings that inspire,<br> provoke and
+                awake true emotions</p>
+            <aside class="scrollsign">scroll down</aside>
+            <button type="button" class="galleryBtn"><a href="#gallerySection">gallery</a></button>
+        </div>
+    </section>
 
 
+
+    <section id="aboutSection">
+        <div class="content" id="aboutPage">
+            <template class="aboutTemplate">
+                <img class="about_img" src="" alt="">
+                <p class="aboutTitle">title here</p>
+                <!--    <p class="aboutSub">title here</p>-->
+                <p class="aboutText">title here</p>
+            </template>
+        </div>
+    </section>
+
+    <section class="trans1">
+        <div class="content" id="transition1">
+            <img src="img/transition1.png" alt="" class="transition1">
+        </div>
+    </section>
+    <section>
+        <div class="content" id="transition2">
+            <img src="img/transition2.png" alt="" class="transition2">
+            <p class="decorText">"Artwork becomes autonomous as soon as it's finished.<br>The meaning belongs to whoever
+                looks at it, regardless of what I wanted to depict."</p>
+        </div>
+    </section>
+
+    <section id="gallerySection">
+        <h1 class="galleryText">gallery</h1>
+        <div class="content" id="galleryPage">
+
+
+            <template class="galleryTemplate">
+                <a href="#">
+                    <img class="img_Gallery" src="" alt="" />
+                </a>
+            </template>
+
+
+
+
+
+
+            <!--  CATEGORY MENU  -->
+            <nav id="categoryMenu">
+                <a href="#gallerySection" class="aGallery">Gallery show all</a>
+
+            </nav>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="content" id="transition3">
+            <p class="decorText">Mysterious places such as the Bucegi mountains and imaginary places like Atlantis.<br>
+                They don’t have anything in common, but I’m fascinated by the stories «we» as humans, have created since
+                the beginning of humanity.</p>
+            <img src="img/transition3.png" alt="" class="transition3">
+        </div>
+    </section>
+
+
+    <section id="contactSection">
+        <div class="content" id="contactPage">
+            <h1 class="contactTitle">please fill the form below if you are interested in purchasing or commissioning a
+                painting from Diana</h1>
+
+
+
+
+            <div class="containerForm">
+                <form action="mailto:dianastroieartist@gmail.com" method="post" enctype="text/plain">
+
+                    <label for="fname">What is your name?</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="email">E-mail address</label>
+                    <input type="text" id="email" name="E-mail" placeholder="Your email address..">
+
+                    <label for="artNumber">Selected Art</label>
+                    <select id="artSelect" name="artSelect">
+                        <option value="painting1">Painting 1: Bucegi</option>
+                        <option value="painting2">Painting 2: Jupiter II</option>
+                        <option value="painting3">Painting 3: Jupiter III</option>
+                        <option value="painting4">Painting 4: Alan</option>
+                        <option value="painting5">Painting 5: Cotton Flower</option>
+                        <option value="painting6">Painting 6: Kali</option>
+                        <option value="painting7">Paingint 7: Waterfalls</option>
+                        <option value="painting8">Painting 8: Clearer</option>
+                        <option value="painting9">Painting 9: Fire</option>
+                        <option value="other">Other</option>
+                    </select>
+
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:80px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+            <template class="contactTemplate">
+                <img class="contact_img" src="" alt="">
+                <div class="contDetails">
+                    <p class="contactPhone">title here</p>
+                    <p class="contactInsta">title here</p>
+                    <p class="contactMail">title here</p>
+                </div>
+                <div class="rights">
+                    <img src="img/logo_final_white2.png" class="logo2">
+                    <p class="contRights">All rights reserved to Diana Stroie &copy; 2019</p>
+                </div>
+            </template>
+
+
+
+        </div>
+    </section>
+    <div class="modal-background hide">
+
+        <div class="container">
+
+
+            <div class="right">
+
+                <p>
+                    <img id="artpaint" class="paint" src="" alt="paint">
+                </p>
+            </div>
+
+            <div class="left">
+                <button class="button-modal">&times;</button>
+                <p class="modalTitle"></p>
+                <p class="modalContent">Work in progress. Out of my comfort zone with.</p>
+                <p class="dimensions"></p>
+                <p class="materials"></p>
+                <a href="index.html#contactPage"><img src="img/shopping_bag_2.png" alt="" class="cart"></a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
